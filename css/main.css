@@ -1,0 +1,139 @@
+/* global variables */
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* global variables */
+
+#Home {
+  width: 100%;
+  height: 660px;
+  background-image: url(../imgs/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100%;
+}
+#leftMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#leftMenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#leftMenu a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+#leftMenu a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#contentMenu {
+  padding: 16px;
+  transition: all 0.5s;
+}
+#contentMenu h2 {
+  margin-top: 200px;
+  font-size: 60px;
+}
+#contentMenu span {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Accordion */
+#sliderDown {
+  margin: 100px auto;
+  width: 50%;
+}
+#sliderDown h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+#sliderDown div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+/* counter */
+
+#counter {
+  background-image: url(../imgs/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+
+.counterOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.container {
+  padding: 100px 0px;
+}
+
+.counterContent {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+/* contact */
+
+.contactInfo p {
+  color: black;
+}
+.contactInfo i {
+  color: gray;
+}
+
+.socialList i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
